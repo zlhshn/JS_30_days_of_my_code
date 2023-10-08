@@ -22,22 +22,21 @@ console.log('Hello,World!');
 // const gravity = 9.81
 // const PI = 3.14
 
-let x= 6,
-  y=7,
-  z= 8;
+// let x= 6,
+//   y=7,
+//   z= 8;
 
-  console.log(x,y,z);
+//   console.log(x,y,z);
 
-x = 7
-console.log(x);
-
-const g = 1993
-
-{
-let x = 58
+// x = 7
 // console.log(x);
-const g
 
-}
-console.log(x);
+// const g = 1993
+
+// {
+// let x = 58
+// // console.log(x);
+
+// }
+// console.log(x);
 
