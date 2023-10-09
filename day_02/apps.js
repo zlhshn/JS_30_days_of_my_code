@@ -24,7 +24,10 @@
 // let string = '30 '
 // console.log(string.concat('girl ', 'and ', 'boy '));
 
-let string = 'Love is the best to in this world'
-// console.log(string.includes('0'));
+// ?trim()
 
-console.log(string.length);
+
+let string  = '        string    '
+
+console.log(string.trim());
+
