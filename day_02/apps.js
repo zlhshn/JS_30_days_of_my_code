@@ -144,3 +144,48 @@
 
 // console.log('30 Days'.concat(' of' +' JS' ));
 // console.log('js'.repeat(20));
+
+// ? Level - 2
+
+// console.log('The quote There is no exercise \\ better for the heart \t than \n reaching down and lifting people up. by John Holmes teaches\
+//  us to help one another.')
+
+// console.log("Love is not patronizing and charity isn\'t about pity,\nit is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.");
+
+// console.log(typeof Number('10'));
+// console.log(typeof 10);
+
+// console.log('10' === 10);
+
+// console.log(parseFloat('9.8'));
+
+// console.log('9.8' == 10);
+// console.log(Math.round('9.8')=== 10);
+
+
+// console.log('python'.includes('on'),'jargon'.includes('on'));
+
+// console.log(Math.round(Math.random()*100));
+
+// const num = Math.random()
+// console.log(num);
+// const randomNumber = Math.floor( num* 50) + 50
+// console.log(randomNumber);
+
+// const num3 = Math.random()
+
+// const randomNumber3 = Math.floor( num3* 256) 
+
+// console.log(randomNumber3);
+
+// const num3 = Math.random()
+
+// const randomNumber3 = Math.floor( num3* 351)  +50
+
+// console.log(randomNumber3);
+
+// const word = 'Javascript'
+
+// let leng = Math.round(Math.random() * 9)
+
+// console.log(word[leng]);
