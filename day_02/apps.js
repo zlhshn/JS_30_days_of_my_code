@@ -99,3 +99,48 @@
 // console.log(string[string.length -1]);
 
 // 
+// ! Exercise--1 
+
+// ? level-1
+
+// const challenge = '30 ,40 Days Of JAvaScript'
+// console.log(challenge);
+// console.log(challenge.length);
+// console.log(challenge.toLowerCase());
+// console.log(challenge.toUpperCase());
+// console.log(challenge.substring(3,9))
+// console.log(challenge.substr(5,2));
+// console.log(challenge.slice(-5,18));
+// console.log(challenge.includes('Script'));
+// console.log(challenge.split(' '));
+
+// const arr ='Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+
+// const newArr = arr.split(',')
+
+// console.log(newArr);
+
+// console.log(challenge.replace('JavaScript', 'Python'));
+
+// console.log(challenge.charAt(15));
+// console.log(challenge.charCodeAt(challenge.indexOf('J')));
+// console.log(challenge.indexOf('a'));
+// console.log(challenge.lastIndexOf('a'));
+
+// const sen1 = 'You cannot end a 123 sentence with  Because because because is a conjunction'
+
+// console.log(sen1.indexOf('because'));
+// console.log(sen1.lastIndexOf('because'));
+// console.log(sen1.search(/because/gi));
+// console.log(sen1.search(/123/gi));
+
+// const challen = '    30 Days Of JavaScript ,,,,,,     '
+// console.log(challen.trim());
+
+// console.log(challenge.endsWith('pt'));
+
+// console.log(challenge.match(/a/gi));
+// console.log(challenge.match(/\d/g));
+
+// console.log('30 Days'.concat(' of' +' JS' ));
+// console.log('js'.repeat(20));
