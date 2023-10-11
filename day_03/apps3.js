@@ -57,5 +57,53 @@
 
 // * Ternary Operation
 
+// let isRainning = false
+
+//  isRainning ? console.log('rain coat') : console.log('no need anytinhg');
 
 
+// * Window Methods --prompt --confirm-- alert
+
+// alert('message')
+// alert('Welcome to 30DaysOfJavaScript')
+
+// prompt('required text', 'optional text')
+
+// let number = prompt('Enter number', 'number goes here')
+// console.log(number)
+
+// const agree = confirm('are you continue Y/N')
+
+// * Date object
+
+// get ile başlayanlar method--getFullYear--getDate
+
+// const now = new Date()
+
+// console.log(now.getHours());
+
+// console.log(now.getTime());
+
+// const allSeconds = Date.now()
+
+// console.log(allSeconds);
+
+// const month = now.getMonth() // return month(0 - 11)
+// console.log(month);
+
+
+// ! Level -1
+
+// const fisrtName ='zeliha'
+
+// const isMarried = false
+
+// console.log(typeof isMarried);
+
+// truty = true, '.', 23
+// falsy = 0, 0n ,false, '', null,undefined,NaN,``
+
+// console.log(4 != '4');
+
+console.log(new Date().getFullYear());
+console.log(new Date().getDate());
