@@ -105,5 +105,5 @@
 
 // console.log(4 != '4');
 
-console.log(new Date().getFullYear());
-console.log(new Date().getDate());
+// console.log(new Date().getFullYear());
+// console.log(new Date().getDate());
