@@ -28,3 +28,11 @@
 //     console.log("hatali giris yaptiniz");
 //     break;
 // }
+
+// ! Level 1
+// soru-3
+
+// let a = 4
+// let b = 3
+
+// a > b ?  '4 is greater than 3' : 'false'
