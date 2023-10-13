@@ -107,3 +107,65 @@
 
 // console.log(new Date().getFullYear());
 // console.log(new Date().getDate());
+
+// const allSecond = Date.now(19/1990)
+// console.log(allSecond);
+
+// !Level-2
+
+// const base = +prompt('enter base')
+
+// const height =+prompt('enter height')
+
+// console.log(`the area of triangle is ${0.5*base*height}`);
+
+
+// soru -9
+
+// const hours = +prompt('enter weekly hours')
+
+// const rate = +prompt('enter rate per hour')
+
+// console.log(`Your weekly earning is ${hours*rate}`);
+
+
+// soru -11
+
+// let myFirstName = 'zeliha'
+
+// let myLastName = 'sahin'
+
+// console.log(myLastName.length == myFirstName.length);
+
+
+// soru-15
+// const now = new Date();
+// const options = {
+ 
+//   hour: '2-digit',
+//   minute: '2-digit',
+//   second: '2-digit',
+//   hour12: true,
+//   year:'2-digit',
+// };
+
+// const humanReadableTime = now.toLocaleTimeString('en-US');
+
+// console.log(humanReadableTime);
+
+// !Level-3
+
+// function formatTwoDigits(number) {
+//     return number < 10 ? `0${number}` : number;
+//   }
+  
+//   const now = new Date();
+//   const year = now.getFullYear();
+//   const month = formatTwoDigits(now.getMonth() + 1); // Adding 1 because months are 0-based.
+//   const day = formatTwoDigits(now.getDate());
+//   const hours = formatTwoDigits(now.getHours());
+//   const minutes = formatTwoDigits(now.getMinutes())
+  
+//   const humanReadableTime = `${year}-${month}-${day} ${hours}:${minutes}`;
+  
+//   console.log(humanReadableTime);

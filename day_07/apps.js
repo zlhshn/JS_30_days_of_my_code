@@ -343,22 +343,22 @@
 
 
 
+// ! şifre üreten kod
 
-
-const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789><.£#$!';
-function generateRandomCode(hane){
+// const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789><.£#$!';
+// function generateRandomCode(hane){
     
    
-    let result = ""
-    let charactersLength = characters.length;
-    for ( let i = 0; i < hane ; i++ ) {
-        result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result
+//     let result = ""
+//     let charactersLength = characters.length;
+//     for ( let i = 0; i < hane ; i++ ) {
+//         result += characters.charAt(Math.floor(Math.random() * charactersLength));
+//     }
+//     return result
 
 
-}
-const hane = Number(prompt("kaç haneli şifre istersin?"))
+// }
+// const hane = Number(prompt("kaç haneli şifre istersin?"))
 // const kere = Number(prompt("kaç farklı şifre istersin?"))
 
-console.log(generateRandomCode(hane));
+// console.log(generateRandomCode(hane));
