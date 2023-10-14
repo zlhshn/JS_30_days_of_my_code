@@ -169,3 +169,28 @@
 //   const humanReadableTime = `${year}-${month}-${day} ${hours}:${minutes}`;
   
 //   console.log(humanReadableTime);
+
+
+
+// const x = 1
+// const y =  (x**2) + (6*x) +9
+
+// console.log(y);
+
+// if(y==0){
+//     y =  (x**2) + (6*x) +9
+//     console.log(x);
+// }
+
+// console.log(x);
+
+
+// const year = new Date().getFullYear()
+// const month = new Date().getMonth() +1
+// const day = new Date().getDate()
+// const  hours = new Date().getHours()
+// const minute = new Date().getMinutes()
+
+// const time = `${year}-${month}-${day} ${hours}:${minute}`
+
+// console.log(time);
