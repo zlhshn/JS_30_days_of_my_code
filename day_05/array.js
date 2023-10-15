@@ -117,14 +117,70 @@
 //   ]
   
 //  console.log(countries[0]);
-//  console.log(countries[countries.length-1]);
-//  console.log(countries.length);
-//  console.log(countries[(countries.length -1)/2]);
+// console.log(countries.indexOf('Albania'));
+// console.log(countries.indexOf('Finland'));
+// console.log(countries.lastIndexOf('Kenya'));
 
-// let companiesString = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-// itCompanies = companiesString.split(',')
+
+
+// *soru-6-7-8-9-10-11-12
+// let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 // console.log(itCompanies);
 // console.log(itCompanies.length);
+// console.log(itCompanies[0]);
+// console.log(itCompanies[itCompanies.length-1]);
+// console.log(itCompanies[(itCompanies.length-1)/2]);
+// for(let i= 0; i<itCompanies.length;i++){
+//     console.log(itCompanies[i].toUpperCase());
+// }
+
+// console.log(itCompanies.join(','));
+
+// * soru-13
+
+// let index = itCompanies.indexOf('Google')
+// if(index===-1){
+//     console.log('not exist');
+// }else{
+//     console.log('exist array');
+// }
+// itCompanies.includes('Facebook') ?  console.log('you have') : console.log('do not');
+
+// *soru-14-tekrar bak
+// let filterCompanies = []
+// let count = 0
+
+
+// *soru-15-16-17-18-19
+
+// console.log(itCompanies.sort());
+// console.log(itCompanies.reverse());
+// console.log(itCompanies.slice(0,3));
+// console.log(itCompanies.slice(itCompanies.length-3));
+
+// console.log(itCompanies.slice(itCompanies.length/2,itCompanies.length/2+1));
+
+// *soru 20-21-22-23
+
+// let itCompanie = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+// console.log(itCompanie.shift());
+// console.log(itCompanie);
+
+// console.log(itCompanie.splice((itCompanie.length-1)/2,1));
+// console.log(itCompanie);
+
+// console.log(itCompanie.pop());
+// console.log(itCompanie);
+
+// console.log(itCompanie.splice());
+
+
+
+
+
+
+
 
 // console.log(itCompanies instanceof Array);
 // console.log(Array.isArray(itCompanies));
@@ -144,7 +200,7 @@
 
 
 
-// !sort() içine function alabilir
+// !sort() içine function alabilir-preclass
 
 // const numbers = [0, 1 , 2, 3, 10, 20, 30 ];
 // numbers.sort( function( a , b){
@@ -157,20 +213,20 @@
 // console.log(numbers.splice());
 
 
-// ! splice methode delete and insert and update
+// ! splice methode delete and insert and update-preclass
 
-let scores = [ 15, 21, 18, 42, 17];
-let deletedScores = scores.splice(0, 3);
-console.log(scores); // [42, 17]
-console.log(deletedScores); // [15, 21, 18]
+// let scores = [ 15, 21, 18, 42, 17];
+// let deletedScores = scores.splice(0, 3);
+// console.log(scores); // [42, 17]
+// console.log(deletedScores); // [15, 21, 18]
 
-let colors = ['red', 'green', 'blue'];
-let deletedColors = colors.splice(3, 0, 'purple', 'orange');
-console.log(colors); // ['red', 'green', 'purple', 'orange', 'blue']
-console.log(deletedColors); // [] nothing deleted
+// let colors = ['red', 'green', 'blue'];
+// let deletedColors = colors.splice(3, 0, 'purple', 'orange');
+// console.log(colors); // ['red', 'green', 'purple', 'orange', 'blue']
+// console.log(deletedColors); // [] nothing deleted
 
 
-let colors1 = ['red', 'green', 'purple', 'orange', 'blue'];
-let deletedColors1 = colors1.splice(3, 1, 'pink');
-console.log(colors); // ['red', 'green', 'purple', 'pink', 'blue']
-console.log(deletedColors1); // ['orange'] is deleted
+// let colors1 = ['red', 'green', 'purple', 'orange', 'blue'];
+// let deletedColors1 = colors1.splice(3, 1, 'pink');
+// console.log(colors); // ['red', 'green', 'purple', 'pink', 'blue']
+// console.log(deletedColors1); // ['orange'] is deleted
