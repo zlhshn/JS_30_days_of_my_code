@@ -121,7 +121,56 @@
 //  console.log(countries.length);
 //  console.log(countries[(countries.length -1)/2]);
 
-let companiesString = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
-itCompanies = companiesString.split(',')
-console.log(itCompanies);
-console.log(itCompanies.length);
+// let companiesString = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+// itCompanies = companiesString.split(',')
+// console.log(itCompanies);
+// console.log(itCompanies.length);
+
+// console.log(itCompanies instanceof Array);
+// console.log(Array.isArray(itCompanies));
+
+// let dailyActivities = ['eat', 'work', 'sleep'];
+
+// add an element at the end
+// const newLength = dailyActivities.push('exercise','sport');
+// console.log(dailyActivities);
+// console.log(dailyActivities.pop());
+// console.log(dailyActivities);
+
+// const languages1 = ["JavaScript", "Python", "Java"];
+// const languages2 = ["C", "C++"];
+
+// console.log(languages1.concat(languages2));
+
+
+
+// !sort() içine function alabilir
+
+// const numbers = [0, 1 , 2, 3, 10, 20, 30 ];
+// numbers.sort( function( a , b){
+//     if(a > b) return 1;
+//     if(a < b) return -1;
+//     return 0;
+// });
+// console.log(numbers);
+
+// console.log(numbers.splice());
+
+
+// ! splice methode delete and insert and update
+
+let scores = [ 15, 21, 18, 42, 17];
+let deletedScores = scores.splice(0, 3);
+console.log(scores); // [42, 17]
+console.log(deletedScores); // [15, 21, 18]
+
+let colors = ['red', 'green', 'blue'];
+let deletedColors = colors.splice(3, 0, 'purple', 'orange');
+console.log(colors); // ['red', 'green', 'purple', 'orange', 'blue']
+console.log(deletedColors); // [] nothing deleted
+
+
+let colors1 = ['red', 'green', 'purple', 'orange', 'blue'];
+let deletedColors1 = colors1.splice(3, 1, 'pink');
+console.log(colors); // ['red', 'green', 'purple', 'pink', 'blue']
+console.log(deletedColors1); // ['orange'] is deleted
