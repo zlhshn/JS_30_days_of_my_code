@@ -16,6 +16,7 @@
 // console.log(numbers);
 // console.log(numbers.length);
 
+
 // const arr4 = ['asabeneh' , 23, true, {country:'Turkey', city: 'malatya'},
 // {skils :['html','css','js','react']}]
 // console.log(arr4);
@@ -124,7 +125,8 @@
 
 
 // *soru-6-7-8-9-10-11-12
-// let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+console.log(itCompanies);
 // console.log(itCompanies);
 // console.log(itCompanies.length);
 // console.log(itCompanies[0]);
@@ -230,3 +232,177 @@
 // let deletedColors1 = colors1.splice(3, 1, 'pink');
 // console.log(colors); // ['red', 'green', 'purple', 'pink', 'blue']
 // console.log(deletedColors1); // ['orange'] is deleted
+
+
+
+
+
+// const arr = Array()
+// const arr1 = new Array()
+// const arr2 = [] 
+
+// console.log(typeof arr);
+// console.log(typeof arr1);
+// console.log(typeof arr2);
+
+// console.log(arr);
+
+// const numbers = [5,6,7,2.4,5]
+// console.log(numbers);
+// console.log(numbers.length);
+// console.clear()
+
+// const arr5 = [
+//     'Asabeneh',
+//     250,
+//     true,
+//     { country: 'Finland', city: 'Helsinki' },
+//     { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] }
+// ]
+
+// console.log(object);
+
+// console.log(arr5);
+// console.log(arr5.length);
+
+// let js = 'Java script'
+
+// console.log(js.split('a',2));
+
+// const fruits = ['banana', 'orange', 'mango', 'lemon']
+
+// console.log(fruits[0][0],fruits[2]);
+// console.log(fruits[2]);
+// console.log(fruits[fruits.length-1]);
+// console.log(fruits.length);
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   console.log(webTechs);
+// console.clear()
+
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+//   ]
+// console.log(countries);
+//   countries[14] = 'Turkey'
+//   console.log(countries);
+
+// const firstList = [1, 2, 3]
+// const secondList = [4, 5, 6]
+// const thirdList  = [7,8,9]
+
+// const fourtList = firstList.concat(secondList,thirdList)
+
+// console.log(fourtList);
+
+// const numbers = [1, 2, 3, 4, 5,'banana']
+
+// console.log(numbers.indexOf(2));
+// console.log(numbers.indexOf('apple'));
+// console.log(numbers.indexOf('banana'));
+
+// const fruits = ['banana','apple', 'orange', 'banana', 'mango', 'lemon','apple','banana']
+
+// console.log(fruits.indexOf('banana',4));
+// console.log(fruits.lastIndexOf('banana',6));
+// console.log(fruits.includes('apple'));
+// console.log(fruits.includes('banana'));
+
+// console.log(Array.isArray(fruits));
+// console.log(fruits.toString());
+
+// const name1 = 'Zeliha'
+// console.log(Array.isArray(name1));
+
+
+// let index = fruits.indexOf(prompt('enter a fruits').toLowerCase())
+
+// index === -1 ? console.log('not exist') : console.log('index of fruits');
+
+// const webTechs = [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Redux',
+//     'Node',
+//     'MongoDB'
+//   ]
+
+//   console.log(webTechs.slice(webTechs.length-1));
+
+// console.log(webTechs.slice().reverse());
+// console.log(webTechs);
+
+
+
+//   console.log(webTechs.join('-'));
+//   console.log(webTechs);
+
+
+// const myArr = ['a','b','c']
+
+// console.log(Array.isArray(myArr));
+
+// console.log(myArr instanceof Array);
+
+// const numbers = [1, 2, 3, 4, 5]
+// numbers.splice(0,1)
+// console.log(numbers) 
+
+// const numbers = [1, 2, 3, 4, 5, 6]
+// numbers.splice(3, 3, 'a', 'b', 'c')  
+// console.log(numbers);
+
+// let scores = [ 15, 21, 18, 42, 17];
+// // let deletedScores = scores.splice(0,1);
+// console.log(scores.splice(2,1));
+// console.log(scores);
+
+// let colors = ['red', 'green','blue'];
+// let deletedColors = colors.splice(2, 0, 'purple', 'orange');
+// console.log(colors);
+
+// let colors = ['red', 'green', 'purple', 'orange', 'blue'];
+// let deletedColors = colors.splice(3,5);
+// console.log(colors);
+
+// const arr  = ['item1', 'item2','item3']
+// console.log(arr.pop());
+// console.log(arr);
+
+// const numbers = [1, 2, 3, 4, 5]
+// numbers.push(6,7)
+// console.log(numbers);
+
+// const numbers = [1, 2, 3, 4, 5]
+// numbers.reverse() // -> reverse array order
+// console.log(numbers)
+
+const numbers = [1,0,11,11,12,23,56,2,3,101,110]
+numbers.sort( function( a , b){
+    if(a > b) return 1;
+    if(a < b) return -1;
+    return 0;
+});
+
+console.log(numbers);
