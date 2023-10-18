@@ -1,17 +1,17 @@
 
-// const person = {
-//     firstName : 'Zeliha',
-//     lastName :'Sahin',
-//     age : 32,
-//     country :'Turkey',
-//     city:'Ankara',
-// }
-// console.log(person);
+const person = {
+    firstName : 'Zeliha',
+    lastName :'Sahin',
+    age : 32,
+    country :'Turkey',
+    city:'Ankara',
+}
+console.log(person);
 
 
-// console.log(person.firstName);
+console.log(person.firstName);
 
-// console.log(person['firstName']);
+console.log(person['firstName']);
 
 
 // ! Level-1----------------
@@ -115,16 +115,31 @@ const users = {
 let winner;
 let max = 0;
 
-for (const property in users) {
-  if (users[property].skills.length > max) {
-    max = users[property].skills.length;
-    winner = property;
-  }
-}
-console.log(winner);
+console.log();
 
+// for (const property in users) {
+//   if (users[property].skills.length > max) {
+//     max = users[property].skills.length;
+//     winner = property;
+//   }
+// }
+// console.log(winner);
 
+// const newUsers = Object.assign({},users)
+// newUsers.name = 'Zeliha'
 
+// console.log(newUsers);
+
+// for (const property in users) {
+//   // if (users[property].skills.indexOf("MongoDB", "Express")) {
+//   //   max = users[property].skills.length;
+//   //   winner = property;
+//   // }
+
+//   if(users[property].skills.indexOf("MongoDB") !== -1){
+//     console.log(users[property]);
+//   }
+// }
 
 
   
