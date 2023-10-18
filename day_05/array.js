@@ -148,9 +148,26 @@ console.log(itCompanies);
 // }
 // itCompanies.includes('Facebook') ?  console.log('you have') : console.log('do not');
 
+
+
 // *soru-14-tekrar bak
-// let filterCompanies = []
-// let count = 0
+// let itCompanies = ["Microsoft", "Google", "Facebook", "Amazon", "Apple"];
+// let filterCompanies = [];
+// for (let i = 0; i < itCompanies.length; i++) {
+//   let len = (itCompanies[i].match(/o/gi) || []).length;
+//   if (len > 1) {
+//     filterCompanies.push(itCompanies[i]);
+//   }
+// }
+// console.log(filterCompanies);
+ 
+
+// for(i=0; i<= companis.length ; i++){
+
+// if((companis[i].match(/o/gi)).length>=2){
+//     console.log(companis[i]);
+// }
+// }
 
 
 // *soru-15-16-17-18-19
