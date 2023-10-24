@@ -91,9 +91,90 @@
 //         console.log(list.task);
 //     }
 
-const sum = (...args)=> {
-    console.log(args);
-}
+// const sum = (...args)=> {
+//     console.log(args);
+// }
 
 
-sum(1,3,4)
+// sum(1,3,4)
+
+
+// ! -Level-1---
+// const constants = [2.72, 3.14, 9.81, 37, 100]
+
+// let [e,pi, gravity,humanBodyTemp,waterBoiling] = constants
+
+// console.log(gravity);
+
+// // soru-2
+// const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
+
+// const [fin,est,sw,den,nor] = countries
+
+// console.log(fin);
+
+// soru-3
+
+// const rectangle = {
+//     width: 20,
+//     height: 10,
+//     area: 200,
+//     perimeter: 60
+//   }
+
+
+//   const {width,height,area,perimeter} = rectangle
+
+//   console.log(height);
+
+//   for (const rec in rectangle) {
+//     console.log(rec);
+//   }
+
+// ! level-2
+
+const users = [
+    {
+      name:'Brook',
+      scores:75,
+      skills:['HTM', 'CSS', 'JS'],
+      age:16
+    },
+    {
+      name:'Alex',
+      scores:80,
+      skills:['HTM', 'CSS', 'JS'],
+      age:18
+    },
+    {
+      name:'David',
+      scores:75,
+      skills:['HTM', 'CSS'],
+      age:22
+    },
+    {
+      name:'John',
+      scores:85,
+      skills:['HTML'],
+      age:25
+    },
+    {
+      name:'Sara',
+      scores:95,
+      skills:['HTM', 'CSS', 'JS'],
+      age: 26
+    },
+    {
+      name:'Martha',
+      scores:80,
+      skills:['HTM', 'CSS', 'JS'],
+      age:18
+    },
+    {
+      name:'Thomas',
+      scores:90,
+      skills:['HTM', 'CSS', 'JS'],
+      age:20
+    }
+]
+
